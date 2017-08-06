@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="assets/css/bulma.css">
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<title>Wikipedia Viewer</title>
+</head>
+<body>
+	<section class="section has-text-centered">
+		<div class="container notification is-black">
+			<h1 class="title">Wikipedia Viewer</h1>
+			<h2 class="subtitle">Developed by <a href="https://chinuxparibus.org" target="_blank">Ch1nux Par1bus</a> for <a href="https://www.freecodecamp.com" target="_blank">FreeCodeCamp</a></h2>
+		</div>
+	</section>
+	<section class="section">
+		<div class="container">
+			<div class="field has-addons">
+				<div class="control">
+					<input id="query" class="input is-large is-black" size="60" type="text" placeholder="Search here">
+				</div>
+				<button id="search" class="button is-black is-outlined is-large">Search</button>
+			</div>
+			<p class="help subtitle"></p>
+		</div>
+	</section>
+	<section class="section">
+		<div id="list" class="container"></div>
+	</section>
+	<script src="assets/js/minified.js"></script>
+	<script src="assets/js/script.js"></script>
+</body>
+</html>
